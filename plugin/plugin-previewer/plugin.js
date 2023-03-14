@@ -30,6 +30,20 @@ module.exports = function (context) {
   return {
     name: 'docusaurus-plugin',
     configureWebpack(config) {
+      // use swc-loader
+      // const jsRules = config.module.rules.filter(rule => {
+      //   if (!rule.include) return false;
+      //   for (let i = 0; i < rule.use.length; i++) {
+      //     if (rule.use[i].loader.includes('babel-loader')) {
+      //       rule.use[i].loader = require.resolve('swc-loader');
+      //       rule.use[i].options = {};
+      //       return true;
+      //     }
+      //   }
+      //   return false;
+      // });
+      // console.log(`------------------`, JSON.stringify(jsRules));
+
       const cssRules = config.module.rules.filter((rule) => {
         const testRegExpStr = rule.test.toString();
         // eslint-disable-no-useless-escape

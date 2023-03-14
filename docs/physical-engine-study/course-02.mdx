@@ -1,0 +1,116 @@
+---
+sidebar_label: 物理引擎学习02 - 初识引擎
+sidebar_position: 1
+---
+
+# 初识引擎
+
+<img src="/physical-engine-study/matter-js.svg" height="100" />
+
+先来简单地了解一下物理引擎。
+
+## 什么是物理引擎
+
+物理引擎是一种计算机软件，用于模拟物理学的各种现象，如物体的运动、力学、流体动力学、热力学等。它通常用于游戏开发、模拟软件、动画制作和工程分析等。
+
+物理引擎通过计算物体之间的相互作用力，以及物体受力、变形、碰撞等事件对其运动的影响，来模拟实际物理世界中的各种事件。
+
+这些模拟效果可以用于游戏或动画中，以提高其真实感和可玩性。
+
+## 简单拆分物理引擎
+
+拆分的规则一开始我是想根据源码中作者对整个 `Matter` 的模块拆分而来的，这样我觉得可以从作者的角度来看，应该不至于让自己走错路吧？
+
+从大体上来看是可以，但是有些细分还是要参考些前人总结的经验和文章来拆。
+
+### 引擎（Engine）
+
+```tsx preview
+import React, { useEffect, useLayoutEffect, useRef } from 'react';
+import { ResetLayout } from '@site/src/physical-engine-study';
+import {
+  Engine,
+  Render,
+  Runner,
+  Composite,
+  Bodies,
+  World,
+  Body,
+} from 'matter-js';
+
+export default function Sample(props: any) {
+  const scene = useRef<HTMLDivElement>(null);
+  const engine = useRef<Engine>(null);
+
+  const start = () => {
+    // create runner
+    const runner = Runner.create();
+
+    // const engine = Engine.create();
+    engine.current = Engine.create();
+    const render = Render.create({
+      element: scene.current,
+      engine: engine.current,
+      options: {
+        width: 400,
+        height: 400,
+        wireframes: false,
+      },
+    });
+
+    // create two boxes and a ground
+    const boxA = Bodies.rectangle(200, 100, 80, 80);
+    const boxB = Bodies.rectangle(250, 25, 80, 80);
+    const ground = Bodies.rectangle(200, 390, 410, 60, { isStatic: true });
+
+    boxA.render.fillStyle = '#FF1122';
+    boxA.render.opacity = 1;
+    const boxComposite = Composite.create();
+    Composite.add(boxComposite, [boxA, boxB]);
+
+    // add all of the bodies to the world
+    Composite.add(engine.current.world, [boxComposite, ground]);
+    // run the renderer
+    Render.run(render);
+
+    // run the engine
+    Runner.run(runner, engine.current);
+
+    // stop the engine
+    return () => {
+      Engine.clear(engine.current);
+      Render.stop(render);
+      Runner.stop(runner);
+      render.canvas.remove();
+    };
+  };
+
+  return (
+    <ResetLayout start={start}>
+      <div ref={scene} />
+    </ResetLayout>
+  );
+}
+```
+
+### 世界（World）
+
+### 刚体（Body）
+
+### 复合体（Composite）
+
+### 碰撞（Collision）
+
+### 约束（Constraint）
+
+### 事件（Events）
+
+### 渲染器（Render）
+
+### 运行器（Runner）
+
+### 休眠（Sleeping） - 非必须
+
+### 鼠标（Mouse） - 非必须
+
+## 一个简单的 DEMO

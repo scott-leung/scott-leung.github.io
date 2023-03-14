@@ -76,6 +76,7 @@ const config = {
               const { blogPosts, defaultCreateFeedItems, ...rest } = params;
               return defaultCreateFeedItems({
                 // keep only the 10 most recent blog posts in the feed
+                // @ts-ignore
                 blogPosts: blogPosts.filter((item, index) => index < 10),
                 ...rest,
               });
@@ -84,10 +85,14 @@ const config = {
         },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          remarkPlugins: [require('remark-math'), [require('./plugin/plugin-previewer/remark/extractCode'), { mobilePreview: false, baseUrl: '/' }],],
+          rehypePlugins: [require('rehype-katex')],
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -98,6 +103,7 @@ const config = {
 
   plugins: [
     require.resolve('./plugin/plugin-previewer/plugin.js'),
+    'docusaurus-plugin-sass',
   ],
 
   stylesheets: [
@@ -186,6 +192,44 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+
+    themes: [
+      '@docusaurus/theme-live-codeblock',
+      // ... Your other themes.
+      [
+        // @ts-ignore
+        require.resolve("@easyops-cn/docusaurus-search-local"),
+        /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+        // @ts-ignore
+        ({
+          // ... Your options.
+          // `hashed` is recommended as long-term-cache of index file is possible.
+          hashed: true,
+          // For Docs using Chinese, The `language` is recommended to set to:
+          // ```
+          language: ["en", "zh"],
+          // ```
+        }),
+      ],
+    ],
+
+    webpack: {
+      jsLoader: (isServer) => ({
+        loader: require.resolve('swc-loader'),
+        options: {
+          jsc: {
+            parser: {
+              syntax: 'typescript',
+              tsx: true,
+            },
+            target: 'es2017',
+          },
+          module: {
+            type: isServer ? 'commonjs' : 'es6',
+          },
+        },
+      }),
+    },
 };
 
 module.exports = config;
