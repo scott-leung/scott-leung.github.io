@@ -46,9 +46,10 @@ jobs:
         with:
           node-version: 14
           cache: yarn
-        run: |
-          npm run deploy2layer -- ${{'--branch=$BRANCH_NAME' || ''}} --token=$deploy_token \
-          --site=scottleung.com \
-          --environment=production
-        env:
-          deploy_token: ${{secrets.LAYER0_DEPLOY_TOKEN}}
+        - name: start deploy script
+          run: |
+            npm run deploy2layer -- ${{'--branch=$BRANCH_NAME' || ''}} --token=$deploy_token \
+            --site=scottleung.com \
+            --environment=production
+          env:
+            deploy_token: ${{secrets.LAYER0_DEPLOY_TOKEN}}
