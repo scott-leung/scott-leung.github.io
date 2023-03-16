@@ -41,15 +41,14 @@ jobs:
           # 你可以用自己的用户信息替换它们。
           user_name: github-actions[bot]
           user_email: 41898282+github-actions[bot]@users.noreply.github.com
-      - name: Deploy to Edgio
-        uses: actions/setup-node@v3
+      -uses: actions/setup-node@v3
         with:
           node-version: 14
           cache: yarn
-        - name: start deploy script
-          run: |
-            npm run deploy2layer -- ${{'--branch=$BRANCH_NAME' || ''}} --token=$deploy_token \
-            --site=scottleung.com \
-            --environment=production
-          env:
-            deploy_token: ${{secrets.LAYER0_DEPLOY_TOKEN}}
+      - name: Deploy to Edgio
+        run: |
+          npm run deploy2layer -- ${{'--branch=$BRANCH_NAME' || ''}} --token=$deploy_token \
+          --site=scottleung.com \
+          --environment=production
+        env:
+          deploy_token: ${{secrets.LAYER0_DEPLOY_TOKEN}}
