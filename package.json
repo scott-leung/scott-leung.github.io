@@ -12,7 +12,8 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "deploy2layer0": "npm run build && 0 deploy --site=scottleung.com --environment=production"
+    "deploy2layer": "0 deploy --site=scottleung.com --environment=production",
+    "build-deploy2layer": "npm run build && npm run deploy2layer"
   },
   "dependencies": {
     "@docusaurus/core": "2.3.1",
