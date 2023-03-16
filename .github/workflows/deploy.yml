@@ -47,8 +47,6 @@ jobs:
           cache: yarn
       - name: Deploy to Edgio
         run: |
-          npm run deploy2layer -- ${{'--branch=$BRANCH_NAME' || ''}} --token=$deploy_token \
-          --site=scottleung.com \
-          --environment=production
+          npm run deploy2layer -- ${{'--branch=$BRANCH_NAME' || ''}} --token=$deploy_token
         env:
           deploy_token: ${{secrets.LAYER0_DEPLOY_TOKEN}}
