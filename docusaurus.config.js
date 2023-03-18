@@ -36,7 +36,7 @@ const config = {
     {
       tagName: 'script',
       attributes: {
-        defer: true,
+        defer: 'defer',
       },
       innerHTML: `function initXdnRum() {
         new Layer0.Metrics({
@@ -51,7 +51,7 @@ const config = {
     {
       tagName: 'script',
       attributes: {
-        defer: true,
+        defer: 'defer',
         src: 'https://rum.layer0.co/latest.js',
         onload: 'initXdnRum()',
       },
