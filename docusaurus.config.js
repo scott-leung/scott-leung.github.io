@@ -32,6 +32,32 @@ const config = {
     locales: ['zh-Hans'],
   },
 
+  headTags: [
+    {
+      tagName: 'script',
+      attributes: {
+        defer: true,
+      },
+      innerHTML: `function initXdnRum() {
+        new Layer0.Metrics({
+          token: 'fd1c0443-35da-4b9f-b917-68f9718855aa',
+          router: new Layer0.Router()
+            .match('/', ({ setPageLabel }) => setPageLabel('home'))
+            .match('/docs/:id', ({ setPageLabel }) => setPageLabel('docs'))
+            .match('/blog/:id', ({ setPageLabel }) => setPageLabel('blog'))
+        }).collect()
+      }`,
+    },
+    {
+      tagName: 'script',
+      attributes: {
+        defer: true,
+        src: 'https://rum.layer0.co/latest.js',
+        onload: 'initXdnRum()',
+      },
+    }
+  ],
+
   presets: [
     [
       'classic',
@@ -43,10 +69,10 @@ const config = {
           // editUrl:
           //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           editLocalizedFiles: false,
-          blogTitle: 'Blog title',
-          blogDescription: 'Blog',
+          blogTitle: '随笔',
+          blogDescription: '响萤的随笔',
           blogSidebarCount: 5,
-          blogSidebarTitle: 'All our posts',
+          blogSidebarTitle: '所有的文章',
           routeBasePath: 'blog',
           include: ['**/*.{md,mdx}'],
           exclude: [
@@ -191,45 +217,50 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },
     }),
 
-    themes: [
-      '@docusaurus/theme-live-codeblock',
-      // ... Your other themes.
-      [
-        // @ts-ignore
-        require.resolve("@easyops-cn/docusaurus-search-local"),
-        /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
-        // @ts-ignore
-        ({
-          // ... Your options.
-          // `hashed` is recommended as long-term-cache of index file is possible.
-          hashed: true,
-          // For Docs using Chinese, The `language` is recommended to set to:
-          // ```
-          language: ["en", "zh"],
-          // ```
-        }),
-      ],
-    ],
-
-    webpack: {
-      jsLoader: (isServer) => ({
-        loader: require.resolve('swc-loader'),
-        options: {
-          jsc: {
-            parser: {
-              syntax: 'typescript',
-              tsx: true,
-            },
-            target: 'es2017',
-          },
-          module: {
-            type: isServer ? 'commonjs' : 'es6',
-          },
-        },
+  themes: [
+    '@docusaurus/theme-live-codeblock',
+    // ... Your other themes.
+    [
+      // @ts-ignore
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      // @ts-ignore
+      ({
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        // For Docs using Chinese, The `language` is recommended to set to:
+        // ```
+        language: ["en", "zh"],
+        // ```
       }),
-    },
+    ],
+  ],
+
+  webpack: {
+    jsLoader: (isServer) => ({
+      loader: require.resolve('swc-loader'),
+      options: {
+        jsc: {
+          parser: {
+            syntax: 'typescript',
+            tsx: true,
+          },
+          target: 'es2017',
+        },
+        module: {
+          type: isServer ? 'commonjs' : 'es6',
+        },
+      },
+    }),
+  },
 };
 
 module.exports = config;
