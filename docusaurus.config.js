@@ -123,6 +123,12 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+        },
       }),
     ],
   ],
@@ -211,7 +217,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} scottleung.com`,
+        copyright: `Copyright © 2016-${new Date().getFullYear()} scottleung.com`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -222,6 +228,7 @@ const config = {
         disableSwitch: false,
         respectPrefersColorScheme: true,
       },
+      metadata: [{name: 'keywords', content: '响萤, Scott Leung, blog, 博客, 前端, 技术'}],
     }),
 
   themes: [
