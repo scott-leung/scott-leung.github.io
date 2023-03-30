@@ -35,7 +35,8 @@
     "react-tooltip": "^4.5.1",
     "rehype-katex": "^5.0.0",
     "remark-math": "^3.0.1",
-    "sass": "^1.59.2"
+    "sass": "^1.59.2",
+    "three": "^0.150.1"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^2.3.1",
