@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkscottleung_com=self.webpackChunkscottleung_com||[]).push([[1713],{3457:t=>{t.exports=JSON.parse('[{"label":"ChatGPT","permalink":"/blog/tags/chat-gpt","count":1}]')}}]);

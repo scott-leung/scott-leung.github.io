@@ -2,224 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://scottleung.com/blog</id>
     <title/>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <updated>2023-03-25T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://scottleung.com/blog"/>
     <icon>https://scottleung.com/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Welcome]]></title>
-        <id>https://scottleung.com/blog/welcome</id>
-        <link href="https://scottleung.com/blog/welcome"/>
-        <updated>2021-08-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></summary>
-        <content type="html"><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p><p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p><p>Regular blog authors can be added to <code>authors.yml</code>.</p><p>The blog post date can be extracted from filenames, such as:</p><ul><li><code>2019-05-30-welcome.md</code></li><li><code>2019-05-30-welcome/index.md</code></li></ul><p>A blog post folder can be convenient to co-locate blog post images:</p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p><p>The blog supports tags as well!</p><p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content>
+        <title type="html"><![CDATA[开通 ChatGPT Plus 流程及体验]]></title>
+        <id>https://scottleung.com/blog/chatgpt-plus</id>
+        <link href="https://scottleung.com/blog/chatgpt-plus"/>
+        <updated>2023-03-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Success Tips]]></summary>
+        <content type="html"><![CDATA[<p><img loading="lazy" alt="Success Tips" src="/assets/images/success-tips-cd4bae203b0d7a78ed9110906d4d4234.png" width="1326" height="404" class="img_ev3q"></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="什么是-chatgpt">什么是 ChatGPT<a href="#什么是-chatgpt" class="hash-link" aria-label="什么是 ChatGPT的直接链接" title="什么是 ChatGPT的直接链接">​</a></h2><p><code>ChatGPT</code> 是一个基于自然语言处理技术的对话引擎，由OpenAI公司开发。它可以生成符合语法和逻辑的文本，与用户进行对话，并提供各种任务的解决方案，包括答疑、文本生成、语言翻译、自动摘要、推荐等。</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="plus-服务与普通服务的区别">Plus 服务与普通服务的区别<a href="#plus-服务与普通服务的区别" class="hash-link" aria-label="Plus 服务与普通服务的区别的直接链接" title="Plus 服务与普通服务的区别的直接链接">​</a></h2><p><code>ChatGPT Plus</code> 相对于普通服务，提供更快的响应速度、更高的可靠性、更好的自适应性和更丰富的功能。</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="价格">价格<a href="#价格" class="hash-link" aria-label="价格的直接链接" title="价格的直接链接">​</a></h2><p><code>ChatGPT Plus</code> 服务的价格 20美刀一个月。</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="开通流程">开通流程<a href="#开通流程" class="hash-link" aria-label="开通流程的直接链接" title="开通流程的直接链接">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="流程简介">流程简介<a href="#流程简介" class="hash-link" aria-label="流程简介的直接链接" title="流程简介的直接链接">​</a></h3><p><code>ChatGPT Plus</code> 可以通过信用卡、借记卡的形式开通。</p><p>这里的信用卡和借记卡都需要是国外的卡，国内的卡是无法开通的。</p><p>但国内的普通人是没法开通国外的借记卡的，所以只剩下信用卡的形式了。</p><p>信用卡有一种虚拟卡的形式，可以通过一些网站申请，但并不是所有的信用卡商都可以。</p><div class="theme-admonition theme-admonition-tip alert alert--success admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>亲测可用的虚拟卡平台</div><div class="admonitionContent_S0QG"><p>这里推荐 <code>Depay</code>，亲测可用：<a href="https://depay.depay.one/web-app/register-h5?invitCode=970508&amp;lang=zh-cn" target="_blank" rel="noopener noreferrer">Depay 官网</a>。</p></div></div><p>但是 <code>Depay</code> 的开通与支付均需要虚拟币的方式来进行。</p><p>所以又要先购买虚拟币往 <code>Depay</code> 账户里充值，然后再开通 <code>Depay</code> 的虚拟卡。</p><div class="theme-admonition theme-admonition-tip alert alert--success admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>号称最易用的虚拟币平台</div><div class="admonitionContent_S0QG"><p>这里推荐 <code>欧易</code>，亲测好用： <a href="https://okx.com/join/73954880" target="_blank" rel="noopener noreferrer">欧易 官网</a></p></div></div><p>需要注意的是，不管是哪个平台，均需要科（翻）学（墙）上网软件才能访问。</p><p>所以整个流程梳理下来是：</p><p>科学上网软件 -&gt; <code>欧易</code> 虚拟币平台 -&gt; <code>Depay</code> 虚拟卡平台 -&gt; <code>ChatGPT Plus</code></p><ol><li>下载科学上网软件并连接，以便访问虚拟币交易平台和虚拟卡平台；</li><li>注册并购买欧易虚拟币平台的虚拟币；</li><li>在 <code>Depay</code> 虚拟卡平台上使用虚拟币购买虚拟信用卡；</li><li>使用国外地址和IP地址，在 <code>ChatGPT</code> 官网上开通 <code>ChatGPT Plus</code>服务。</li></ol><p>下面是文字教程，如果想直接看图片教程，请<a href="#%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B">点击这里</a>。</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="科学上网软件">科学上网软件<a href="#科学上网软件" class="hash-link" aria-label="科学上网软件的直接链接" title="科学上网软件的直接链接">​</a></h3><p>这里不推荐，自行解决。</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="欧易虚拟币平台">欧易虚拟币平台<a href="#欧易虚拟币平台" class="hash-link" aria-label="欧易虚拟币平台的直接链接" title="欧易虚拟币平台的直接链接">​</a></h3><p><a href="https://okx.com/join/73954880" target="_blank" rel="noopener noreferrer">欧易</a> 是一个虚拟币交易平台，可以通过微信、支付宝的形式购买虚拟币。</p><p>注册并购买虚拟币的过程比较简单，您只需要提供相应的信息和完成一些简单的验证就可以购买虚拟币。</p><p>不要被这东西吓到，我自己第一次试了之后发现不复杂，搞完还可以弄懂怎么做数字货币交易了。</p><div class="theme-admonition theme-admonition-danger alert alert--danger admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M5.05.31c.81 2.17.41 3.38-.52 4.31C3.55 5.67 1.98 6.45.9 7.98c-1.45 2.05-1.7 6.53 3.53 7.7-2.2-1.16-2.67-4.52-.3-6.61-.61 2.03.53 3.33 1.94 2.86 1.39-.47 2.3.53 2.27 1.67-.02.78-.31 1.44-1.13 1.81 3.42-.59 4.78-3.42 4.78-5.56 0-2.84-2.53-3.22-1.25-5.61-1.52.13-2.03 1.13-1.89 2.75.09 1.08-1.02 1.8-1.86 1.33-.67-.41-.66-1.19-.06-1.78C8.18 5.31 8.68 2.45 5.05.32L5.03.3l.02.01z"></path></svg></span>注意</div><div class="admonitionContent_S0QG"><ul><li>苹果需要外区账号才能下载；</li><li>安卓可以直接下载安装；</li><li>交易是 <code>C2C</code> 的（即个人对个人，但有平台负责）；</li><li>注册后不要在网页端购买，网页端购买会被风控，资金需要一周才能转出来用，而 APP 端只需要 24 小时。</li></ul></div></div><h4 class="anchor anchorWithStickyNavbar_LWe7" id="先注册个账号">先注册个账号<a href="#先注册个账号" class="hash-link" aria-label="先注册个账号的直接链接" title="先注册个账号的直接链接">​</a></h4><p>这里推荐手机号直接注册，我一开始用邮箱，想着不暴露手机号，但后来发现还是要手机号，还不如直接一开始就用手机号注册。</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="购买虚拟币">购买虚拟币<a href="#购买虚拟币" class="hash-link" aria-label="购买虚拟币的直接链接" title="购买虚拟币的直接链接">​</a></h4><p>点击 <code>即刻买币</code>，然后选择 <code>USDT</code>，然后选择 <code>支付宝</code>、<code>微信</code>或<code>银行卡</code>中费率最低的，然后点击 <code>下一步</code>。</p><p><img loading="lazy" alt="&amp;quot;Buy Now&amp;quot;" src="/assets/images/01_buy_now-ea1906028121c4f6302b64e63803e575.png" width="828" height="1792" class="img_ev3q"></p><ul><li>接下来选择 USDT。</li></ul><p><img loading="lazy" alt="&amp;quot;Select USDT 1&amp;quot;" src="/assets/images/02_select_usdt_1-7383a488c6e05dfc5c6376b56657cb17.png" width="828" height="1792" class="img_ev3q"></p><ul><li>然后输入金额，推荐充 25 个币。</li></ul><p><img loading="lazy" alt="&amp;quot;Select USDT 1&amp;quot;" src="/assets/images/02_select_usdt_2-5b3e58e87c9f06169b05e94e194780c7.png" width="828" height="1792" class="img_ev3q"></p><ul><li>之后选择支付方式，选择单价最低的即可。</li></ul><p><img loading="lazy" alt="&amp;quot;Select Payment Method&amp;quot;" src="/assets/images/03_select_pay_method-ff1ca5a9830d9a9924399a4655abd3cb.png" width="828" height="1792" class="img_ev3q"></p><ul><li>之后进入到 <code>C2C</code> 交易页面，按步骤进行转账即可。这里给出 <code>WX交易</code> 演示的截图。</li></ul><p><img loading="lazy" alt="&amp;quot;WeChat Pay&amp;quot;" src="/assets/images/04_wechat_pay-a66359078487598ea723b7859bb524b2.png" width="828" height="1400" class="img_ev3q"></p><ul><li>接下来，由于账号注册的限制，会被风控 24 小时，限制转出，这里需要等待后再进行下一步操作。</li></ul><div class="theme-admonition theme-admonition-info alert alert--info admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>等待吧</div><div class="admonitionContent_S0QG"><p>24 小时后。。。</p></div></div><ul><li>点下面蓝色按钮，然后点提现。</li></ul><p><img loading="lazy" alt="&amp;quot;Send Coin 1&amp;quot;" src="/assets/images/05_send_coin_1-e8c103c10b68f8cca6d35ab7044fbee7.png" width="828" height="1792" class="img_ev3q"></p><ul><li>选数字货币提现</li></ul><p><img loading="lazy" alt="&amp;quot;Send Coin 2&amp;quot;" src="/assets/images/05_send_coin_2-5223424e350a45efd0e0a5588ddd1615.png" width="828" height="1792" class="img_ev3q"></p><ul><li>选 USDT</li></ul><p><img loading="lazy" alt="&amp;quot;Send Coin 3&amp;quot;" src="/assets/images/05_send_coin_3-1f6a219a177faad5b368e853c412e8f9.png" width="828" height="1792" class="img_ev3q"></p><ul><li>选提币，23/24 个</li></ul><p><img loading="lazy" alt="&amp;quot;Send Coin 4&amp;quot;" src="/assets/images/05_send_coin_4-e2519a494b7612e2cff87fe133365999.png" width="828" height="1792" class="img_ev3q"></p><ul><li>随后被要求输入地址</li></ul><p><img loading="lazy" alt="&amp;quot;Send Coin 9&amp;quot;" src="/assets/images/05_send_coin_9-35207db24d8bf7980157c77f561e8102.png" width="828" height="1792" class="img_ev3q"></p><div class="theme-admonition theme-admonition-tip alert alert--success admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>提示</div><div class="admonitionContent_S0QG"><p>这里的地址对应的是 <code>Depay</code> 上的钱包地址。下面我们讲解下 <code>Depay</code> 相关内容。</p></div></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="depay-虚拟卡平台">Depay 虚拟卡平台<a href="#depay-虚拟卡平台" class="hash-link" aria-label="Depay 虚拟卡平台的直接链接" title="Depay 虚拟卡平台的直接链接">​</a></h3><p><a href="https://depay.depay.one/web-app/register-h5?invitCode=970508&amp;lang=zh-cn" target="_blank" rel="noopener noreferrer">Depay</a> 是一个虚拟卡平台，可以通过虚拟币的形式购买虚拟卡。</p><p>您可以使用欧易虚拟币平台购买虚拟币，然后在Depay上使用虚拟币购买虚拟信用卡。</p><div class="theme-admonition theme-admonition-danger alert alert--danger admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M5.05.31c.81 2.17.41 3.38-.52 4.31C3.55 5.67 1.98 6.45.9 7.98c-1.45 2.05-1.7 6.53 3.53 7.7-2.2-1.16-2.67-4.52-.3-6.61-.61 2.03.53 3.33 1.94 2.86 1.39-.47 2.3.53 2.27 1.67-.02.78-.31 1.44-1.13 1.81 3.42-.59 4.78-3.42 4.78-5.56 0-2.84-2.53-3.22-1.25-5.61-1.52.13-2.03 1.13-1.89 2.75.09 1.08-1.02 1.8-1.86 1.33-.67-.41-.66-1.19-.06-1.78C8.18 5.31 8.68 2.45 5.05.32L5.03.3l.02.01z"></path></svg></span>注意</div><div class="admonitionContent_S0QG"><p>最好直接买高级卡！除非不介意个人信息泄露，因为普通卡需要人脸核身，如果打算使用时间长的，所有费用算下来还跟高级卡差不多。
+根本没必要开普通卡。</p></div></div><ul><li><p>先注册个账号</p></li><li><p>接着点击『钱包』tab，选择 <code>USDT</code>。</p></li></ul><p><img loading="lazy" alt="&amp;quot;Send Coin 5&amp;quot;" src="/assets/images/05_send_coin_5-7eddc4a323c261fbd74ccceb816a3f83.png" width="828" height="1792" class="img_ev3q"></p><ul><li>点击『充币』</li></ul><p><img loading="lazy" alt="&amp;quot;Send Coin 6&amp;quot;" src="/assets/images/05_send_coin_6-13c5558f306dbfe12772a4c4dbc3e8e1.png" width="828" height="1792" class="img_ev3q"></p><ul><li>选择主网『TRC20』，注意一定不要选错，选错会导致无法到账。</li></ul><p><img loading="lazy" alt="&amp;quot;Send Coin 7&amp;quot;" src="/assets/images/05_send_coin_7-b86c4480679c5d83d4407ff8ad558c5a.png" width="828" height="1792" class="img_ev3q"></p><ul><li>然后复制『充值地址』，然后去欧易平台提现。</li></ul><p><img loading="lazy" alt="&amp;quot;Send Coin 8&amp;quot;" src="/assets/images/05_send_coin_8-df460d16268afc783f652d6710d8e8aa.png" width="828" height="1792" class="img_ev3q"></p><div class="theme-admonition theme-admonition-tip alert alert--success admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>提示</div><div class="admonitionContent_S0QG"><p>接下来切换到欧易平台</p></div></div><ul><li><p>还记得欧易上一步的操作吗？选提币后要求输入地址。</p></li><li><p>粘贴之前的复制好的充值地址，点击预览订单
+<img loading="lazy" alt="&amp;quot;Send Coin 9&amp;quot;" src="/assets/images/05_send_coin_9-35207db24d8bf7980157c77f561e8102.png" width="828" height="1792" class="img_ev3q"></p></li></ul><ul><li>点击确认</li></ul><p><img loading="lazy" alt="&amp;quot;Send Coin 10&amp;quot;" src="/assets/images/05_send_coin_10-15fdc1e043501cd272a2e998bae03228.png" width="828" height="1792" class="img_ev3q"></p><ul><li>被要求输入两个验证码</li></ul><p><img loading="lazy" alt="&amp;quot;Send Coin 11&amp;quot;" src="/assets/images/05_send_coin_11-5689e644cece3a0d9fb71cc341d09ef2.png" width="828" height="1792" class="img_ev3q"></p><div class="theme-admonition theme-admonition-info alert alert--info admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>等待 15 - 20 分钟</div><div class="admonitionContent_S0QG"><p>耐心等待转账结果完成即可。</p></div></div><ul><li>转账成功后，返回到 Depay 平台，点击『钱包』tab，点击上面的实时兑换。</li></ul><p>这里选择 <code>USDT</code> 到 <code>USD</code>，因为实际开卡用的是 <code>USD</code>，手续费这里还要收。</p><p>兑换 22 个，扣除手续费后剩 21.x 个，然后开发还要收 1 个，到时候就剩刚好 20 个多一点。</p><p><img loading="lazy" alt="&amp;quot;USDT to USD&amp;quot;" src="/assets/images/06_usdt_to_usd-0122cbd55b6819009cd74ba112d37204.png" width="828" height="1792" class="img_ev3q"></p><ul><li>兑换完成后，返回 tab 『卡』，点击申请卡。</li></ul><p><img loading="lazy" alt="&amp;quot;Apply Card&amp;quot;" src="/assets/images/07_apply_card-6f3a4494f56fa806b2b3f4a6e90f3357.png" width="828" height="1792" class="img_ev3q"></p><ul><li>这里有多种卡片类型，一般在『标准卡』和『高级卡』之间选择，这里选择『高级卡』。</li></ul><p><img loading="lazy" alt="&amp;quot;Select Card Type&amp;quot;" src="/assets/images/08_select_card_type-21011f534487824aa8a0b6b37cfa0c03.png" width="828" height="1792" class="img_ev3q">
+<img loading="lazy" alt="&amp;quot;High Level Card&amp;quot;" src="/assets/images/09_high_level_card-8bc4ad113b85add14948b89234c06f5c.png" width="828" height="1792" class="img_ev3q"></p><ul><li>然后进行邮箱/手机验证码验证</li></ul><p><img loading="lazy" alt="&amp;quot;Receive Verification Code&amp;quot;" src="/assets/images/10_receive_verify_code-a6ff0840314c45bbd4f1005c5d0166d0.png" width="828" height="1792" class="img_ev3q"></p><div class="theme-admonition theme-admonition-tip alert alert--success admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>恭喜！</div><div class="admonitionContent_S0QG"><p>申请卡成功！</p></div></div><ul><li>接下来查看卡片信息，点击『卡』tab，点击卡片下面的『CVV安全码』。</li></ul><p><img loading="lazy" alt="&amp;quot;Show CVV&amp;quot;" src="/assets/images/11_show_cvv-d2539fc90c6f1948b4beb7f9ebfb59ad.png" width="828" height="1792" class="img_ev3q"></p><ul><li>这些信息保存好，等下开卡要用到，注意切勿泄露！！！。</li></ul><div class="theme-admonition theme-admonition-tip alert alert--success admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>提示</div><div class="admonitionContent_S0QG"><p>接下来我们去申请 <code>ChatGPT Plus</code> 咯！</p></div></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="chatgpt-plus">ChatGPT Plus<a href="#chatgpt-plus" class="hash-link" aria-label="ChatGPT Plus的直接链接" title="ChatGPT Plus的直接链接">​</a></h3><p>开通 <code>ChatGPT Plus</code> 服务需要在 <code>ChatGPT</code> 官网上进行。</p><p>需要注意两个问题：</p><ol><li><code>IP</code> 需要用国外的，开全局模式，如果提示卡片被拒绝，就换 <code>IP + 浏览器无痕模式</code>，地区换日本、巴西、德国、美国，不行就多切换；</li><li>地址，需要填写国外的地址，并且大部分地区是收税的，可以使用 <code>OR 州</code> 的地址，不收税，这里有<a href="https://www.meiguodizhi.com/usa-address/oregon" target="_blank" rel="noopener noreferrer">地址生成器</a>。</li></ol><h2 class="anchor anchorWithStickyNavbar_LWe7" id="流程">流程<a href="#流程" class="hash-link" aria-label="流程的直接链接" title="流程的直接链接">​</a></h2><ul><li><p>在 <code>ChatGPT</code> 页面点击 <code>Upgrade to Plus</code>，选择 20 美刀。</p></li><li><p>最重要的流程来了。</p></li><li><p>从地址生成器中复制一个地址，然后粘贴到支付信息的地址栏中。</p></li></ul><p><img loading="lazy" alt="&amp;quot;Prepare Address&amp;quot;" src="/assets/images/12_prepare_address-174dc5be0f38359e732839bcdcc6380a.png" width="914" height="584" class="img_ev3q"></p><ul><li>然后把之前的卡片信息也贴过来，注意『月/年』和『CVV』。</li></ul><p><img loading="lazy" alt="&amp;quot;Fill Pay Info&amp;quot;" src="/assets/images/13_fill_pay_info-5e8b29df6286ce29da2ee234c81009ba.png" width="1036" height="812" class="img_ev3q"></p><ul><li><p>点击确认后，等待即可，若失败，换 <code>IP</code> + 无痕模式 后重试。</p></li><li><p>恭喜你，成功开启 <code>ChatGPT Plus</code> 服务。</p></li></ul><p><img loading="lazy" alt="&amp;quot;Success&amp;quot;" src="/assets/images/success-tips-cd4bae203b0d7a78ed9110906d4d4234.png" width="1326" height="404" class="img_ev3q"></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="开通成功后">开通成功后<a href="#开通成功后" class="hash-link" aria-label="开通成功后的直接链接" title="开通成功后的直接链接">​</a></h2><p><img loading="lazy" alt="GPT Model Select" src="/assets/images/model-select-d62c61e0fc1e4db653f2402b1a2494d6.png" width="1302" height="854" class="img_ev3q"></p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="gpt4-频率限制及使用体验">GPT4 频率限制及使用体验<a href="#gpt4-频率限制及使用体验" class="hash-link" aria-label="GPT4 频率限制及使用体验的直接链接" title="GPT4 频率限制及使用体验的直接链接">​</a></h3><p><code>ChatGPT Plus</code> 服务使用 <code>GPT-4</code>，相对于 <code>GPT-3.5</code> 来说具有更强的能力。</p><p>但是最底下一行字：</p><blockquote><p>GPT-4 currently has a cap of 25 messages every 3 hours. Expect significantly lower caps, as we adjust for demand.</p></blockquote><p>3 小时才 25 条，实在是太少了。</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="gpt-35-使用体验">GPT 3.5 使用体验<a href="#gpt-35-使用体验" class="hash-link" aria-label="GPT 3.5 使用体验的直接链接" title="GPT 3.5 使用体验的直接链接">​</a></h3><p><code>GPT 3.5</code> 对比免费版稳定、响应速度快，使用体验非常好。</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="总结">总结<a href="#总结" class="hash-link" aria-label="总结的直接链接" title="总结的直接链接">​</a></h2><p>总体而言，<code>ChatGPT Plus</code> 服务的开通流程相对繁琐，需要使用虚拟币和科学上网软件，同时也需要注意税费和使用限制等问题。</p><p>但是，<code>ChatGPT Plus</code> 服务的性能和功能也更加出色，对于有高要求的用户来说是一种不错的选择。</p><p>当然，也可以使用 <code>API</code> 的方式来使用，相对来说会更划算。</p>]]></content>
         <author>
             <name>Scott Leung (响萤)</name>
             <uri>https://scottleung.com</uri>
         </author>
-        <category label="facebook" term="facebook"/>
-        <category label="hello" term="hello"/>
-        <category label="docusaurus" term="docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MDX Blog Post]]></title>
-        <id>https://scottleung.com/blog/mdx-blog-post</id>
-        <link href="https://scottleung.com/blog/mdx-blog-post"/>
-        <updated>2021-08-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></summary>
-        <content type="html"><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p><div class="theme-admonition theme-admonition-tip alert alert--success admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>提示</div><div class="admonitionContent_S0QG"><p>Use the power of React to create interactive blog posts.</p><div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">button onClick</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">alert</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'button clicked!'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">}</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator" style="color:#393A34">!</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">button</span><span class="token operator" style="color:#393A34">&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><button>Click me!</button></div></div><div><div class="container_pKAm unfoldContainer_kREC"><div class="preview_Awq0"></div><div class="__react_component_tooltip t5885d947-aa30-41cb-9a4b-82091e9ed703 place-top type-dark" id="t5885d947-aa30-41cb-9a4b-82091e9ed703" data-id="tooltip"><style aria-hidden="true">
-  	.t5885d947-aa30-41cb-9a4b-82091e9ed703 {
-	    color: #fff;
-	    background: #222;
-	    border: 1px solid transparent;
-	    border-radius: undefinedpx;
-	    padding: 8px 21px;
-  	}
-
-  	.t5885d947-aa30-41cb-9a4b-82091e9ed703.place-top {
-        margin-top: -10px;
-    }
-    .t5885d947-aa30-41cb-9a4b-82091e9ed703.place-top::before {
-        content: "";
-        background-color: inherit;
-        position: absolute;
-        z-index: 2;
-        width: 20px;
-        height: 12px;
-    }
-    .t5885d947-aa30-41cb-9a4b-82091e9ed703.place-top::after {
-        content: "";
-        position: absolute;
-        width: 10px;
-        height: 10px;
-        border-top-right-radius: undefinedpx;
-        border: 1px solid transparent;
-        background-color: #222;
-        z-index: -2;
-        bottom: -6px;
-        left: 50%;
-        margin-left: -6px;
-        transform: rotate(135deg);
-    }
-
-    .t5885d947-aa30-41cb-9a4b-82091e9ed703.place-bottom {
-        margin-top: 10px;
-    }
-    .t5885d947-aa30-41cb-9a4b-82091e9ed703.place-bottom::before {
-        content: "";
-        background-color: inherit;
-        position: absolute;
-        z-index: -1;
-        width: 18px;
-        height: 10px;
-    }
-    .t5885d947-aa30-41cb-9a4b-82091e9ed703.place-bottom::after {
-        content: "";
-        position: absolute;
-        width: 10px;
-        height: 10px;
-        border-top-right-radius: undefinedpx;
-        border: 1px solid transparent;
-        background-color: #222;
-        z-index: -2;
-        top: -6px;
-        left: 50%;
-        margin-left: -6px;
-        transform: rotate(45deg);
-    }
-
-    .t5885d947-aa30-41cb-9a4b-82091e9ed703.place-left {
-        margin-left: -10px;
-    }
-    .t5885d947-aa30-41cb-9a4b-82091e9ed703.place-left::before {
-        content: "";
-        background-color: inherit;
-        position: absolute;
-        z-index: -1;
-        width: 10px;
-        height: 18px;
-    }
-    .t5885d947-aa30-41cb-9a4b-82091e9ed703.place-left::after {
-        content: "";
-        position: absolute;
-        width: 10px;
-        height: 10px;
-        border-top-right-radius: undefinedpx;
-        border: 1px solid transparent;
-        background-color: #222;
-        z-index: -2;
-        right: -6px;
-        top: 50%;
-        margin-top: -6px;
-        transform: rotate(45deg);
-    }
-
-    .t5885d947-aa30-41cb-9a4b-82091e9ed703.place-right {
-        margin-left: 10px;
-    }
-    .t5885d947-aa30-41cb-9a4b-82091e9ed703.place-right::before {
-        content: "";
-        background-color: inherit;
-        position: absolute;
-        z-index: -1;
-        width: 10px;
-        height: 18px;
-    }
-    .t5885d947-aa30-41cb-9a4b-82091e9ed703.place-right::after {
-        content: "";
-        position: absolute;
-        width: 10px;
-        height: 10px;
-        border-top-right-radius: undefinedpx;
-        border: 1px solid transparent;
-        background-color: #222;
-        z-index: -2;
-        left: -6px;
-        top: 50%;
-        margin-top: -6px;
-        transform: rotate(-135deg);
-    }
-  </style></div><div class="operations_LsYQ"><div class="item_rpUK" data-tip="复制"><svg viewBox="0 0 20 20" focusable="false" data-icon="snippets" width="20px" height="20px" fill="currentColor" aria-hidden="true"><path d="M15,5 L15,18 L2,18 L2,5 L15,5 Z M14,6 L3,6 L3,17 L14,17 L14,6 Z M18,2 L18,15 L16,15 L16,13.999 L17,14 L17,3 L6,3 L6,4 L5,4 L5,2 L18,2 Z M9,8 L9,11 L12,11 L12,12 L9,12 L9,15 L8,15 L8,12 L5,12 L5,11 L8,11 L8,8 L9,8 Z"></path></svg></div><div class="item_rpUK" data-tip="展开"><svg width="20px" height="20px" viewBox="0 0 20 20" fill="currentColor"><path d="M14.4307124,13.5667899 L15.1349452,14.276759 L10.7473676,18.6288871 L6.42783259,14.2738791 L7.13782502,13.5696698 L10.7530744,17.2147744 L14.4307124,13.5667899 Z M4.79130753,8.067524 L16.3824174,11.1733525 L16.1235984,12.1392784 L4.53248848,9.03344983 L4.79130753,8.067524 Z M10.8154102,1.57503552 L15.1349452,5.93004351 L14.4249528,6.63425282 L10.809949,2.98914817 L7.13206544,6.6371327 L6.42783259,5.92716363 L10.8154102,1.57503552 Z" transform="translate(10.457453, 10.101961) rotate(90.000000) translate(-10.457453, -10.101961) "></path></svg></div></div></div><div class="codeWrapper_PSvn"></div></div><div class="playgroundContainer_X_Ta"><div class="playgroundHeader_dyrN">实时编辑器</div><div class="playgroundEditor_Q6Y7" style="position:relative;text-align:left;box-sizing:border-box;padding:0;overflow:hidden;white-space:pre;font-family:monospace;color:#393A34;background-color:#f6f8fa"><textarea style="margin:0;border:0;background:none;box-sizing:inherit;display:inherit;font-family:inherit;font-size:inherit;font-style:inherit;font-variant-ligatures:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;tab-size:inherit;text-indent:inherit;text-rendering:inherit;text-transform:inherit;white-space:pre-wrap;word-break:keep-all;overflow-wrap:break-word;position:absolute;top:0;left:0;height:100%;width:100%;resize:none;color:inherit;overflow:hidden;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;-webkit-text-fill-color:transparent;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px" class="npm__react-simple-code-editor__textarea" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" data-gramm="false">function Clock(props) {
-  const [date, setDate] = useState(new Date());
-  useEffect(() =&gt; {
-    const timerID = setInterval(() =&gt; tick(), 1000);
-
-    return function cleanup() {
-      clearInterval(timerID);
-    };
-  });
-
-  function tick() {
-    setDate(new Date());
-  }
-
-  return (
-    &lt;div&gt;
-      &lt;h2&gt;现在是 {date.toLocaleTimeString()}。&lt;/h2&gt;
-    &lt;/div&gt;
-  );
-}</textarea><pre aria-hidden="true" style="margin:0;border:0;background:none;box-sizing:inherit;display:inherit;font-family:inherit;font-size:inherit;font-style:inherit;font-variant-ligatures:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;tab-size:inherit;text-indent:inherit;text-rendering:inherit;text-transform:inherit;white-space:pre-wrap;word-break:keep-all;overflow-wrap:break-word;position:relative;pointer-events:none;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px"><div class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">function</span><span class="token plain"> </span><span class="token function maybe-class-name" style="color:#d73a49">Clock</span><span class="token punctuation" style="color:#393A34">(</span><span class="token parameter">props</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token keyword" style="color:#00009f">const</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token plain">date</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> setDate</span><span class="token punctuation" style="color:#393A34">]</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">useState</span><span class="token punctuation" style="color:#393A34">(</span><span class="token keyword" style="color:#00009f">new</span><span class="token plain"> </span><span class="token class-name">Date</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token function" style="color:#d73a49">useEffect</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">const</span><span class="token plain"> timerID </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">setInterval</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">tick</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">1000</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block">
-</span></div><div class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword control-flow" style="color:#00009f">return</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">function</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">cleanup</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">      </span><span class="token function" style="color:#d73a49">clearInterval</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">timerID</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block">
-</span></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token keyword" style="color:#00009f">function</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">tick</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token function" style="color:#d73a49">setDate</span><span class="token punctuation" style="color:#393A34">(</span><span class="token keyword" style="color:#00009f">new</span><span class="token plain"> </span><span class="token class-name">Date</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block">
-</span></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token keyword control-flow" style="color:#00009f">return</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token tag punctuation" style="color:#393A34">&lt;</span><span class="token tag" style="color:#00009f">div</span><span class="token tag punctuation" style="color:#393A34">&gt;</span><span class="token plain-text"></span></div><div class="token-line" style="color:#393A34"><span class="token plain-text">      </span><span class="token tag punctuation" style="color:#393A34">&lt;</span><span class="token tag" style="color:#00009f">h2</span><span class="token tag punctuation" style="color:#393A34">&gt;</span><span class="token plain-text">现在是 </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain">date</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">toLocaleTimeString</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain-text">。</span><span class="token tag punctuation" style="color:#393A34">&lt;/</span><span class="token tag" style="color:#00009f">h2</span><span class="token tag punctuation" style="color:#393A34">&gt;</span><span class="token plain-text"></span></div><div class="token-line" style="color:#393A34"><span class="token plain-text">    </span><span class="token tag punctuation" style="color:#393A34">&lt;/</span><span class="token tag" style="color:#00009f">div</span><span class="token tag punctuation" style="color:#393A34">&gt;</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span></div></pre><style>
-/**
- * Reset the text fill color so that placeholder is visible
- */
-.npm__react-simple-code-editor__textarea:empty {
-  -webkit-text-fill-color: inherit !important;
-}
-
-/**
- * Hack to apply on some CSS on IE10 and IE11
- */
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  /**
-    * IE doesn't support '-webkit-text-fill-color'
-    * So we use 'color: transparent' to make the text transparent on IE
-    * Unlike other browsers, it doesn't affect caret color in IE
-    */
-  .npm__react-simple-code-editor__textarea {
-    color: transparent !important;
-  }
-
-  .npm__react-simple-code-editor__textarea::selection {
-    background-color: #accef7 !important;
-    color: transparent !important;
-  }
-}
-</style></div><div class="playgroundHeader_dyrN">结果</div><div class="playgroundPreview_DzOI"><div>Loading...</div></div></div>]]></content>
-        <author>
-            <name>Scott Leung (响萤)</name>
-            <uri>https://scottleung.com</uri>
-        </author>
-        <category label="docusaurus" term="docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Long Blog Post]]></title>
-        <id>https://scottleung.com/blog/long-blog-post</id>
-        <link href="https://scottleung.com/blog/long-blog-post"/>
-        <updated>2019-05-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is the summary of a very long blog post,]]></summary>
-        <content type="html"><![CDATA[<p>This is the summary of a very long blog post,</p><p>Use a <code>&lt;!--</code> <code>truncate</code> <code>--&gt;</code> comment to limit blog post size in the list view.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
-        <author>
-            <name>Scott Leung (响萤)</name>
-            <uri>https://scottleung.com</uri>
-        </author>
-        <category label="hello" term="hello"/>
-        <category label="docusaurus" term="docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[First Blog Post]]></title>
-        <id>https://scottleung.com/blog/first-blog-post</id>
-        <link href="https://scottleung.com/blog/first-blog-post"/>
-        <updated>2019-05-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
-        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
-        <author>
-            <name>Gao Wei</name>
-            <uri>https://github.com/wgao19</uri>
-        </author>
-        <category label="hola" term="hola"/>
-        <category label="docusaurus" term="docusaurus"/>
+        <category label="ChatGPT" term="ChatGPT"/>
     </entry>
 </feed>

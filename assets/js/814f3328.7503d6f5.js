@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkscottleung_com=self.webpackChunkscottleung_com||[]).push([[2535],{5641:t=>{t.exports=JSON.parse('{"title":"\u6240\u6709\u7684\u6587\u7ae0","items":[{"title":"\u5f00\u901a ChatGPT Plus \u6d41\u7a0b\u53ca\u4f53\u9a8c","permalink":"/blog/chatgpt-plus"}]}')}}]);
