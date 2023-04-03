@@ -20,3 +20,6 @@ yarn-debug.log*
 yarn-error.log*
 # Layer0 generated build directory
 .layer0
+
+# rust 相关
+*.rsoutput
