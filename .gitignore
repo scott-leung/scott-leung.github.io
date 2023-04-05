@@ -22,4 +22,5 @@ yarn-error.log*
 .layer0
 
 # rust 相关
+target
 *.rsoutput
