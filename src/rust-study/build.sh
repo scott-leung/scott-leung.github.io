@@ -18,9 +18,15 @@ if [ ! -d "$dir_name" ]; then
 fi
 
 # Compile the rust file
-rustc "$dir_name/main.rs" -o "$dir_name/main.rsoutput"
+if rustc "$dir_name/main.rs" -o "$dir_name/main.rsoutput"; then
+  echo "Compilation successful."
+else
+  echo "Compilation error. Exiting script without executing -run option."
+  exit 1
+fi
 
 # Check if the -run option was passed
 if [ "$2" == "-run" ]; then
+  export RUST_BACKTRACE=1
   "$dir_name/main.rsoutput"
 fi
